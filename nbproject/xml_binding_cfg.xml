@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<schemas xmlns='http://xml.netbeans.org/schema/JAXBWizConfig' destdir='build/generated-sources/jaxb' projectName='VelibWS' version='1.0'>
+	<schema type='-xmlschema' package='velibp' name='velib'>
+		<xjc-options>
+		</xjc-options>
+		<schema-sources>
+			<schema-source location='xml-resources/jaxb/velib/velib.xsd' origLocation='../GlassfishServerRoot/velib.xsd'/>
+		</schema-sources>
+		<bindings>
+		</bindings>
+		<catalog/>
+	</schema>
+	<schema type='-xmlschema' package='stationp' name='station'>
+		<xjc-options>
+		</xjc-options>
+		<schema-sources>
+			<schema-source location='xml-resources/jaxb/station/station.xsd' origLocation='../GlassfishServerRoot/station.xsd'/>
+		</schema-sources>
+		<bindings>
+		</bindings>
+		<catalog/>
+	</schema>
+</schemas>
